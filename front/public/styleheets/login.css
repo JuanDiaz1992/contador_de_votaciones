@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.section1{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.card-body {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.div_login{
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.icon_login{
+    position: absolute;
+    right:  10px;
+    color: rgb(114, 114, 114);
+}
+
+
+.buttonInactive{
+    background-color: grey !important;
+}
+
+
+.btn-primary:hover{
+    background-color: green !important;
+}
